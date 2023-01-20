@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://fishfolk.org/</loc>
+        <loc>/</loc>
     </url>
     <url>
-        <loc>https://fishfolk.org/authors/</loc>
+        <loc>/authors/</loc>
     </url>
     <url>
-        <loc>https://fishfolk.org/code-of-conduct/</loc>
+        <loc>/code-of-conduct/</loc>
     </url>
 </urlset>
