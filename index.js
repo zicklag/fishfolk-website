@@ -27,7 +27,7 @@ const quotes = [
     "It's krill or be krilled.",
     "You've got to be squidding me.",
     "Squid it already, will ya!",
-    "Oh bouy, these are starting to get a little finicky",
+    "Oh bouy, these are starting to get a little finicky.",
     "I'm sorry, I can't kelp it!",
     "Too many fish puns. We should scale back."
 ];
