@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>FishFolk</title>
+	<subtitle>Games with fish folk. Child of Spicy Lobster Games.</subtitle>
+	<link href="/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-02-22T00:00:00+00:00</updated>
+	<id>/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Spicy Lobster (Open Gamedev) Company</title>
+		<published>2022-02-22T00:00:00+00:00</published>
+		<updated>2022-02-22T00:00:00+00:00</updated>
+		<link rel="alternate" href="/blog/spicy-lobster-open-gamedev-company/" type="text/html"/>
+		<id>/blog/spicy-lobster-open-gamedev-company/</id>
+		<content type="html">&lt;h2 id=&quot;good-game-development&quot;&gt;Good Game Development&lt;&#x2F;h2&gt;
+&lt;p&gt;Paraphrasing from our &lt;a href=&quot;https:&#x2F;&#x2F;spicylobster.itch.io&#x2F;fishfight&#x2F;devlog&#x2F;345530&#x2F;open-gamedev-school&quot;&gt;Open Gamedev School&lt;&#x2F;a&gt;, here’s what we think &lt;em&gt;Good Gamedev&lt;&#x2F;em&gt; is all about:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Openness&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+Without openness we cannot learn how to make ever-better games.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Kindness&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+Without kindness there’s no playfulness in the games we make.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Curiosity&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+Without curiosity there is no urge to explore the unknown.&lt;&#x2F;p&gt;
+&lt;p&gt;(…)&lt;&#x2F;p&gt;
+&lt;p&gt;We practice the craft of game development, played out through being open, kind and curious.&lt;&#x2F;p&gt;
+&lt;p&gt;We do NOT practice fake urgency, punishment or discrimination.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;..As for the &lt;em&gt;where&lt;&#x2F;em&gt;, &lt;em&gt;when&lt;&#x2F;em&gt; and &lt;em&gt;who&lt;&#x2F;em&gt; of the work to be done:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Distributed&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+Geographical locality is of little importance.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Asynchronously&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+Our communications are async-by-default.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Pseudonymously&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+We don’t absolutely need to know your real name, age, gender or nationality, though many of us do exchange many such details freely, e.g. for the purpose of monetary transactions.&lt;&#x2F;p&gt;
+&lt;p&gt;Lastly, &lt;em&gt;what do we work for&lt;&#x2F;em&gt;, and &lt;em&gt;why&lt;&#x2F;em&gt;:&lt;&#x2F;p&gt;
+&lt;p&gt;We work cooperatively to enrich The Commons, in service of the global community.&lt;&#x2F;p&gt;
+&lt;p&gt;The Commons&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Commons&quot;&gt;[1]&lt;&#x2F;a&gt;&lt;a href=&quot;http:&#x2F;&#x2F;www.onthecommons.org&#x2F;about-commons&quot;&gt;[2]&lt;&#x2F;a&gt; is what sustains us and our communities, so enriching &lt;em&gt;it&lt;&#x2F;em&gt; is to enrich our selves and those around us in an ecologically sustainable manner.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;good-games&quot;&gt;Good Games&lt;&#x2F;h2&gt;
+&lt;p&gt;In &lt;a href=&quot;https:&#x2F;&#x2F;spicylobster.itch.io&#x2F;fishfight&#x2F;devlog&#x2F;337996&#x2F;everlasting-games&quot;&gt;Everlasting Games&lt;&#x2F;a&gt;, we explain our intention as game makers, and the tenets by which we aim to honor that intent. Those same tenets also describe what we believe to be a reproducible model for making Good Games.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The intention of Spicy Lobster studio (makers of the Fish Fight franchise) is to make everlasting games, holistically designed to last for as long as the game is still being played. We do this by following similar development practices as the open software movement with its many long-lived giants, like Linux, WordPress and Blender.&lt;&#x2F;p&gt;
+&lt;p&gt;The games we build will last forever because they are:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Open&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+As long as a game’s inner workings are open, it can be continued, with or without its original creators.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Moddable&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+By enabling ease of modification, a game will forever evolve and grow. Cross-platform Platforms come and go. The more platforms a game exists on, the greater its longevity.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Communal&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+A connected and tended-to community rooted in friendship is the living essence that keeps any game going. Collective ownership facilitates discourse and feedback between equals.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Sustainable&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+Continuously developing and servicing a game requires continuous income. Profits should however be in the service of mutual developer-player happiness, and not for outsize individual enrichment.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Loving Play&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+The classics we fell in love with are held in such high regard because they were designed first and foremost &lt;em&gt;in service of play&lt;&#x2F;em&gt;, I.e. they were created out of a love for play(fullness).&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;indie-co-op&quot;&gt;Indie co-op&lt;&#x2F;h2&gt;
+&lt;p&gt;While for now we formally exist only as a single-person company run out of Oslo, Norway by Erlend Sogge Heggen, we already function like a &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Cooperative&quot;&gt;cooperative&lt;&#x2F;a&gt; business entity, run by ~10 primary stakeholders and dozens more stakeholders of varying levels of involvement.&lt;&#x2F;p&gt;
+&lt;p&gt;Anyone who has contributed anything of demonstrable value to a Spicy Lobster game-product is owed real stake in said product, relative to their contribution.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;social-contract-a-promise&quot;&gt;Social Contract: A promise&lt;&#x2F;h3&gt;
+&lt;p&gt;Anyone who partners with us will get what they’re owed.&lt;&#x2F;p&gt;
+&lt;p&gt;Our promise is that everyone will get their fair share of the pie. We can promise that without having to go through the trouble of formal contracts in the preliminary stages, because the work we do is done in the open, thus ensuring a fair estimation of value added and compensation owed in return.&lt;&#x2F;p&gt;
+&lt;p&gt;But nothing can be owed until a significant enough amount of money has been earned, say, $20,000. For the most economically privileged among us, we don’t really need to take part in the game profits until they exceed $50k-$200k.&lt;&#x2F;p&gt;
+&lt;p&gt;(In the past we tried to put more words to this social contract in a more &lt;a href=&quot;https:&#x2F;&#x2F;docs.google.com&#x2F;document&#x2F;d&#x2F;184XHTtX4m_jpQSrtOC6tbs6fKDiWpOId95nGXGxrsCs&#x2F;edit&quot;&gt;formal-sounding document&lt;&#x2F;a&gt;, but further revisions are required.)&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-games&quot;&gt;The Games&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;fish-fight-series&quot;&gt;Fish Fight (series)&lt;&#x2F;h3&gt;
+&lt;p&gt;We are making a growing catalogue of games, all set in the same &lt;a href=&quot;https:&#x2F;&#x2F;spicylobster.itch.io&#x2F;fish-world-pack&quot;&gt;Fish World&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;jumpy-athletic-shoe&quot;&gt;Jumpy 👟&lt;&#x2F;h4&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;fishfight&#x2F;jumpy&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;fishfight&#x2F;jumpy&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Tactical 2D shooter in fishy pixels style; Our flagship game. Made with Rust-lang and a *quads-derived custom engine.&lt;&#x2F;p&gt;
+&lt;p&gt;(Formerly known as just Fish Fight, as it was the first game in what later became a &lt;em&gt;series&lt;&#x2F;em&gt; of games.)&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;punchy-facepunch&quot;&gt;Punchy 👊&lt;&#x2F;h4&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;fishfight&#x2F;punchy&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;fishfight&#x2F;punchy&lt;&#x2F;a&gt; &lt;img src=&quot;https:&#x2F;&#x2F;img.itch.zone&#x2F;aW1nLzg0ODAxOTYuZ2lm&#x2F;original&#x2F;RguVB2.gif&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;A 2.5D side-scroller beat-’em-up, made in Bevy.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;party&quot;&gt;Party 🥳&lt;&#x2F;h4&gt;
+&lt;p&gt;TBA 3rd addition to our Fish Fight series, inspired by the likes of Among Us and Mario Party. Made in Bevy.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;shotcaller&quot;&gt;Shotcaller&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;spicylobstergames&#x2F;shotcaller-godot&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;spicylobstergames&#x2F;shotcaller-godot&lt;&#x2F;a&gt; &lt;img src=&quot;https:&#x2F;&#x2F;img.itch.zone&#x2F;aW1nLzg0ODAyNDQuZ2lm&#x2F;original&#x2F;vNn2Ux.gif&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Minimalistic 1v1 MOBA&#x2F;RTS in top-down pixel style, made in Godot.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;rpg-sim&quot;&gt;RPG-Sim&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;spicylobstergames&#x2F;rpg-sim&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;spicylobstergames&#x2F;rpg-sim&lt;&#x2F;a&gt; &lt;img src=&quot;https:&#x2F;&#x2F;img.itch.zone&#x2F;aW1nLzg0ODAzMjkuanBlZw==&#x2F;original&#x2F;o5L5PJ.jpeg&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Heroes of Might &amp;amp; Magic meets Majesty, sort of. Made in Bevy.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;late-vision&quot;&gt;Late Vision&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;WhalesState&#x2F;late-vision&#x2F;&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;WhalesState&#x2F;late-vision&#x2F;&lt;&#x2F;a&gt; &lt;img src=&quot;https:&#x2F;&#x2F;img.itch.zone&#x2F;aW1nLzg0ODAzNTAucG5n&#x2F;original&#x2F;0dttf%2F.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;AKA ‘Id-game’. A low-fi game about consciousness and life patterns, made in Godot.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;open-collaboration&quot;&gt;Open collaboration&lt;&#x2F;h2&gt;
+&lt;p&gt;We openly share our products and processes alike, making our entire go-to-market playbook independently reproducible by other indies. Collaborating directly with us is optional.&lt;&#x2F;p&gt;
+&lt;p&gt;However closely entangled you wanna get, if you are immersed in the practice of open game development we’d love to hear from you: &lt;a href=&quot;https:&#x2F;&#x2F;discord.gg&#x2F;HgrkqqB8Ru&quot;&gt;https:&#x2F;&#x2F;discord.gg&#x2F;HgrkqqB8Ru&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;!-- 
+Cover image by [Álvaro Serrano](https:&#x2F;&#x2F;unsplash.com&#x2F;@alvaroserrano?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https:&#x2F;&#x2F;unsplash.com&#x2F;s&#x2F;photos&#x2F;open-business?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) --&gt;</content>
+	</entry>
+</feed>
