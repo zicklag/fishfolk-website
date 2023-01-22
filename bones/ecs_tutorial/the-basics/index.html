@@ -1,0 +1,216 @@
+<!doctype html><html lang=en-US><head><meta charset=utf-8><meta content="ie=edge" http-equiv=x-ua-compatible><meta content="width=device-width,initial-scale=1,shrink-to-fit=no" name=viewport><link as=font href=/fonts/vendor/jost/jost-v4-latin-regular.woff2 rel=preload type=font/woff2><link as=font href=/fonts/vendor/jost/jost-v4-latin-700.woff2 rel=preload type=font/woff2><link href=/main.css rel=stylesheet><meta content="index, follow" name=robots><meta content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" name=googlebot><meta content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" name=bingbot><title>The Basics | FishFolk</title><meta content="Games with fish folk. Child of Spicy Lobster Games." name=description><link href=/bones/ecs_tutorial/the-basics/ rel=canonical><script type=application/ld+json>
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          {
+            "@type": "ListItem",
+            "position":  1 ,
+            "name": "Home",
+            "item": ":///"
+          },
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  2 ,
+            "name": "Bones",
+            "item": ":///bones/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  3 ,
+            "name": "Ecs_tutorial",
+            "item": ":///bones/ecs_tutorial/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  4 ,
+            "name": "The Basics",
+            "item": ":///bones/ecs_tutorial/the-basics/"
+          },
+        
+      
+    
+  }
+</script><meta content=#fff name=theme-color><link href=/apple-touch-icon.png rel=apple-touch-icon sizes=180x180><link href=/favicon-32x32.png rel=icon sizes=32x32 type=image/png><link href=/favicon-16x16.png rel=icon sizes=16x16 type=image/png><body class="docs single"><header class="navbar fixed-top navbar-expand-md navbar-light"><div class=container><input class="menu-btn order-0" id=menu-btn type=checkbox><label class="menu-icon d-md-none" for=menu-btn><span class=navicon></span></label><a class="navbar-brand order-1 order-md-0 me-auto" href=/>FishFolk</a><button aria-label="Toggle mode" class="btn btn-link order-2 order-md-4" id=mode type=button><span class=toggle-dark><svg class="feather feather-moon" viewbox="0 0 24 24" fill=none height=20 stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2 width=20 xmlns=http://www.w3.org/2000/svg><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span> <span class=toggle-light><svg class="feather feather-sun" viewbox="0 0 24 24" fill=none height=20 stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2 width=20 xmlns=http://www.w3.org/2000/svg><circle cx=12 cy=12 r=5></circle><line x1=12 x2=12 y1=1 y2=3></line><line x1=12 x2=12 y1=21 y2=23></line><line x1=4.22 x2=5.64 y1=4.22 y2=5.64></line><line x1=18.36 x2=19.78 y1=18.36 y2=19.78></line><line x1=1 x2=3 y1=12 y2=12></line><line x1=21 x2=23 y1=12 y2=12></line><line x1=4.22 x2=5.64 y1=19.78 y2=18.36></line><line x1=18.36 x2=19.78 y1=5.64 y2=4.22></line></svg></span></button><ul class="navbar-nav fork-me order-3 order-md-5"><li class=nav-item><a class=nav-link href=https://github.com/fishfolk><svg class="feather feather-github" viewbox="0 0 24 24" fill=none height=20 stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2 width=20 xmlns=http://www.w3.org/2000/svg><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg><span class="ms-2 visually-hidden">GitHub</span></a></ul><div class="collapse navbar-collapse order-4 order-md-1"><ul class="navbar-nav main-nav me-auto order-5 order-md-2"><li class=nav-item><a class=nav-link href=/games/>Games</a><li class=nav-item><a class=nav-link href=/bones/overview/introduction/>Bones</a><li class=nav-item><a class=nav-link href=/blog/>Blog</a></ul><div class="break order-6 d-md-none"></div><form class="navbar-form flex-grow-1 order-7 order-md-3"><input class="form-control is-search" aria-label=Search... autocomplete=off id=userinput placeholder=Search... type=search><div class="shadow bg-white rounded" id=suggestions></div></form></div></div></header><div class="wrap container" role=document><div class=content><div class="row flex-xl-nowrap"><div class="col-lg-4 col-xl-3 docs-sidebar"><nav aria-label="Main navigation" class=docs-links><a class=docs-link href=/bones/overview/introduction/><h2>Bones</h2></a><a class="docs-link d-flex align-items-center" href=https://github.com/fishfolk/bones target=_blank> <svg class="feather feather-github" viewbox="0 0 24 24" fill=none height=20 stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2 width=20 xmlns=http://www.w3.org/2000/svg><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> <span class=ms-2>GitHub</span> </a><h3>Overview</h3><ul class=list-unstyled><li><a class=docs-link href=/bones/overview/introduction/>Introduction</a></ul><h3>ECS Tutorial</h3><ul class=list-unstyled><li><a class="docs-link active" href=/bones/ecs_tutorial/the-basics/>The Basics</a></ul><h3>Development</h3><ul class=list-unstyled><li><a class="d-flex align-items-center justify-content-between docs-link pe-3" href=https://fishfolk.github.io/bones/rustdoc/bones_lib/index.html target=_blank> <span>API Documentation</span> <svg class="ms-2 bi bi-box-arrow-up-right" viewbox="0 0 16 16" fill=currentColor height=16 width=16 xmlns=http://www.w3.org/2000/svg><path d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z" fill-rule=evenodd /><path d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z" fill-rule=evenodd /></svg> </a></ul></nav></div><nav aria-label="Secondary navigation" class="docs-toc d-none d-xl-block col-xl-3"><div class=page-links><h3>On this page</h3><nav id=TableOfContents><ul><li><a href=/bones/ecs_tutorial/the-basics/#components>Components</a><li><a href=/bones/ecs_tutorial/the-basics/#systems>Systems</a></li><ul><li><a href=/bones/ecs_tutorial/the-basics/#setup>Setup</a><li><a href=/bones/ecs_tutorial/the-basics/#position-velocity-system>Position-Velocity System</a><li><a href=/bones/ecs_tutorial/the-basics/#print-system>Print System</a></ul><li><a href=/bones/ecs_tutorial/the-basics/#world-and-systemstages>World and SystemStages</a><li><a href=/bones/ecs_tutorial/the-basics/#full-example>Full Example</a></ul></nav></div></nav><main class="docs-content col-lg-12 col-xl-10"><h1>The Basics</h1><p><code>bones_ecs</code> is the core of the Bones framework, and all of the other crates depend on it, but it can also be used independently of the rest of Bones.<p>Here we'll give an overview of Bones ECS and how to use it.<p>Throughout this tutorial we assume that you have imported the <code>bones_ecs</code> prelude:<pre class=language-rust data-lang=rust style=background-color:#2b303b;color:#c0c5ce;><code class=language-rust data-lang=rust><span style=color:#b48ead;>use </span><span>bones_ecs::prelude::*;
+</span></code></pre><p>Or if you're using <code>bones_lib</code>:<pre class=language-rust data-lang=rust style=background-color:#2b303b;color:#c0c5ce;><code class=language-rust data-lang=rust><span style=color:#b48ead;>use </span><span>bones_lib::ecs::prelude::*;
+</span></code></pre><p>You must also add the <code>type_ulid</code> crate to your <code>Cargo.toml</code> ( this won't be necessary in the future ).<h2 id=components>Components</h2><p>Let's start with making some components. We'll need a <code>Pos</code> component and a <code>Vel</code> component, to represent positions and velocities:<pre class=language-rust data-lang=rust style=background-color:#2b303b;color:#c0c5ce;><code class=language-rust data-lang=rust><span style=color:#65737e;>/// Our position component.
+</span><span>#[</span><span style=color:#bf616a;>derive</span><span>(Clone, TypeUlid, Debug)]
+</span><span>#[</span><span style=color:#bf616a;>ulid </span><span>= "</span><span style=color:#a3be8c;>01GPYNA7R38W826BG79QG0X590</span><span>"]
+</span><span style=color:#b48ead;>pub struct </span><span>Pos {
+</span><span>    </span><span style=color:#b48ead;>pub </span><span style=color:#bf616a;>x</span><span>: </span><span style=color:#b48ead;>f32</span><span>,
+</span><span>    </span><span style=color:#b48ead;>pub </span><span style=color:#bf616a;>y</span><span>: </span><span style=color:#b48ead;>f32</span><span>,index
+</span><span>}
+</span><span>
+</span><span style=color:#65737e;>/// Our velocity component.
+</span><span>#[</span><span style=color:#bf616a;>derive</span><span>(Clone, TypeUlid, Debug)]
+</span><span>#[</span><span style=color:#bf616a;>ulid </span><span>= "</span><span style=color:#a3be8c;>01GPYN9961WQAJ19Q6NEQ6AFPH</span><span>"]
+</span><span style=color:#b48ead;>pub struct </span><span>Vel {
+</span><span>    </span><span style=color:#b48ead;>pub </span><span style=color:#bf616a;>x</span><span>: </span><span style=color:#b48ead;>f32</span><span>,
+</span><span>    </span><span style=color:#b48ead;>pub </span><span style=color:#bf616a;>y</span><span>: </span><span style=color:#b48ead;>f32</span><span>,
+</span><span>}
+</span></code></pre><p>Components are just rust structs, but notice that we are required to derive at least two traits on all our components: <code>Clone</code> and <code>TypeUlid</code>.<ul><li><code>Clone</code> is required to allow snapshotting the world state.<li><code>TypeUlid</code> is required to provide unique component identifiers across mods.</ul><p>For every different component you create, it has to have a different ULID. You can generate a ULID by going to <a href=https://webassembly.sh>webassembly.sh</a> and typing the command <code>ulid</code>.<blockquote><p><strong>Note:</strong> We are considering removing the <code>TypeUlid</code> requirement. See this <a href=https://github.com/fishfolk/bones/issues/49>issue</a> for details.</blockquote><h2 id=systems>Systems</h2><p>Now that we have components, we can create our systems.<h3 id=setup>Setup</h3><p>Let's start off with a <code>setup_system</code> that will spawn some entities into our world.<p>Systems in Bones ECS are just functions or closures where all the arguments are <code>SystemParam</code>s.<pre class=language-rust data-lang=rust style=background-color:#2b303b;color:#c0c5ce;><code class=language-rust data-lang=rust><span style=color:#65737e;>// Spawn our initial entities.
+</span><span style=color:#b48ead;>fn </span><span style=color:#8fa1b3;>setup_system</span><span>(
+</span><span>    </span><span style=color:#b48ead;>mut </span><span style=color:#bf616a;>entities</span><span>: ResMut&LTEntities>,
+</span><span>    </span><span style=color:#b48ead;>mut </span><span style=color:#bf616a;>positions</span><span>: CompMut&LTPos>,
+</span><span>    </span><span style=color:#b48ead;>mut </span><span style=color:#bf616a;>velocities</span><span>: CompMut&LTVel>,
+</span><span>) {
+</span><span>    </span><span style=color:#65737e;>// Create our first entity
+</span><span>    </span><span style=color:#b48ead;>let</span><span> ent1 = entities.</span><span style=color:#96b5b4;>create</span><span>();
+</span><span>    </span><span style=color:#65737e;>// Add add Pos and a Vel component to it.
+</span><span>    positions.</span><span style=color:#96b5b4;>insert</span><span>(ent1, Pos { x: </span><span style=color:#d08770;>0.</span><span>, y: </span><span style=color:#d08770;>0.</span><span>});
+</span><span>    velocities.</span><span style=color:#96b5b4;>insert</span><span>(ent1, Vel { x: </span><span style=color:#d08770;>3.0</span><span>, y: </span><span style=color:#d08770;>1.0 </span><span>});
+</span><span>
+</span><span>    </span><span style=color:#65737e;>// And do the same with another entity
+</span><span>    </span><span style=color:#b48ead;>let</span><span> ent2 = entities.</span><span style=color:#96b5b4;>create</span><span>();
+</span><span>    positions.</span><span style=color:#96b5b4;>insert</span><span>(ent2, Pos { x: </span><span style=color:#d08770;>0.</span><span>, y: </span><span style=color:#d08770;>100. </span><span>});
+</span><span>    velocities.</span><span style=color:#96b5b4;>insert</span><span>(ent2, Vel { x: </span><span style=color:#d08770;>0.0</span><span>, y: -</span><span style=color:#d08770;>1.0 </span><span>});
+</span><span>}
+</span></code></pre><p>Notice here how we use two different kinds of system parameters: <code>ResMut</code> and <code>CompMut</code>.<ul><li><code>ResMut</code> gives us mutable access to a resource. In this case, we specifically access the <code>Entities</code> resource, which is always present in the <code>World</code>. The <code>Entities</code> resource allows us to create and kill entities, as well as iterate over entities.<li><code>CompMut</code> gives us mutable access to a component store. <code>CompMut&LTVel></code> can almost be though of as a <code>HashMap&LTEntity, Vel></code>. Similarly, you can get the position of an entity with <code>positions.get(ent)</code>.</ul><p>For both resources and components there are non-mutable variants, <code>Res</code> and <code>Comp</code>, that may be used of you only need to read from it.<h3 id=position-velocity-system>Position-Velocity System</h3><p>Now that we've got our <code>setup_system</code> made, let's add a system that will update all the entity's positions based on their velocities.<pre class=language-rust data-lang=rust style=background-color:#2b303b;color:#c0c5ce;><code class=language-rust data-lang=rust><span style=color:#b48ead;>fn </span><span style=color:#8fa1b3;>pos_vel_system</span><span>(
+</span><span>    </span><span style=color:#bf616a;>entities</span><span>: Res&LTEntities>,
+</span><span>    </span><span style=color:#b48ead;>mut </span><span style=color:#bf616a;>positions</span><span>: CompMut&LTPos>,
+</span><span>    </span><span style=color:#bf616a;>velocities</span><span>: Comp&LTVel>,
+</span><span>) {
+</span><span>    </span><span style=color:#b48ead;>for </span><span>(entity, (pos, vel)) in entities.</span><span style=color:#96b5b4;>iter_with</span><span>((&</span><span style=color:#b48ead;>mut</span><span> positions, &velocities)) {
+</span><span>        pos.x += vel.x;
+</span><span>        pos.y += vel.y;
+</span><span>    }
+</span><span>}
+</span></code></pre><p>Here we see a new feature of the <code>Entities</code> resource. It allows us to iterate over all of our entities that have specific components. In this case, want to iterate over all our entities that have a position and a velocity, with mutable access to the position and read access to the velocity.<h3 id=print-system>Print System</h3><p>Finally, we'll want to be able to see what our system is doing, so let's add one more system to print out the velocities and positions of our entities:<pre class=language-rust data-lang=rust style=background-color:#2b303b;color:#c0c5ce;><code class=language-rust data-lang=rust><span style=color:#b48ead;>fn </span><span style=color:#8fa1b3;>print_system</span><span>(
+</span><span>    </span><span style=color:#bf616a;>entities</span><span>: Res&LTEntities>,
+</span><span>    </span><span style=color:#bf616a;>positions</span><span>: Comp&LTPos>,
+</span><span>    </span><span style=color:#bf616a;>velocities</span><span>: Comp&LTVel>,
+</span><span>) {
+</span><span>    println!("</span><span style=color:#a3be8c;>========</span><span>");
+</span><span>
+</span><span>    </span><span style=color:#b48ead;>for </span><span>(entity, (pos, vel)) in entities.</span><span style=color:#96b5b4;>iter_with</span><span>((&positions, &velocities)) {
+</span><span>        println!("</span><span style=color:#d08770;>{entity:?}</span><span style=color:#a3be8c;>: </span><span style=color:#d08770;>{pos:?}</span><span style=color:#a3be8c;> - </span><span style=color:#d08770;>{vel:?}</span><span>");
+</span><span>    }
+</span><span>}
+</span></code></pre><h2 id=world-and-systemstages><code>World</code> and <code>SystemStages</code></h2><p>Now that we've defined our components and our systems, it's time to put them together.<p>The first step is to create a <code>World</code> to store our components and resources in:<pre class=language-rust data-lang=rust style=background-color:#2b303b;color:#c0c5ce;><code class=language-rust data-lang=rust><span># </span><span style=color:#b48ead;>extern crate</span><span> bones_ecs;
+</span><span># </span><span style=color:#b48ead;>use </span><span>bones_ecs::prelude::*;
+</span><span style=color:#b48ead;>let mut</span><span> world = World::new();
+</span></code></pre><p>And now we can run our setup system, to create our entities:<pre class=language-rust data-lang=rust style=background-color:#2b303b;color:#c0c5ce;><code class=language-rust data-lang=rust><span>world.</span><span style=color:#96b5b4;>run_system</span><span>(setup_system).</span><span style=color:#96b5b4;>unwrap</span><span>();
+</span></code></pre><p>The <code>run_system()</code> function will run a system one time. Though we haven't done so in any of our systems so far, systems are allowed to return a <code>SystemResult</code>, so we have to unwrap the possible error when running the system.<p>While we only want to run our setup system once, we will need to run our other systems multiple times, and for that we use <code>SystemStages</code>.<pre class=language-rust data-lang=rust style=background-color:#2b303b;color:#c0c5ce;><code class=language-rust data-lang=rust><span style=color:#b48ead;>let mut</span><span> stages = SystemStages::with_core_stages();
+</span></code></pre><p>This creates a new <code>SystemStages</code> collection, pre-populated with the <code>CoreStage</code>s. There are five core stages, run in order:<ul><li><code>CoreStage::First</code><li><code>CoreStage::PreUpdate</code><li><code>CoreStage::Update</code><li><code>CoreStage::PostUpdate</code><li><code>CoreStage::Last</code></ul><p>These groupings make it easier to control which order your systems run, when you have a lot of different modules all adding systems to your <code>SystemStages</code>.<pre class=language-rust data-lang=rust style=background-color:#2b303b;color:#c0c5ce;><code class=language-rust data-lang=rust><span>stages
+</span><span>    .</span><span style=color:#96b5b4;>add_system_to_stage</span><span>(CoreStage::Update, pos_vel_system)
+</span><span>    .</span><span style=color:#96b5b4;>add_system_to_stage</span><span>(CoreStage::PostUpdate, print_system);
+</span></code></pre><p>Once we have added all our systems we have to initialize them. This will make sure that any component store or resources that they access are created registered with the world.<pre class=language-rust data-lang=rust style=background-color:#2b303b;color:#c0c5ce;><code class=language-rust data-lang=rust><span>stages.</span><span style=color:#96b5b4;>initialize_systems</span><span>(&</span><span style=color:#b48ead;>mut</span><span> world);
+</span></code></pre><p>Finally, we can run our stages against the world, and it will be sure to execute all of our systems in all of their stages every time we call <code>run()</code>. Let's run it ten times, so we can see our positions changing according to their velocity over a few frames:<pre class=language-rust data-lang=rust style=background-color:#2b303b;color:#c0c5ce;><code class=language-rust data-lang=rust><span style=color:#b48ead;>for </span><span>_ in </span><span style=color:#d08770;>0</span><span>..</span><span style=color:#d08770;>10 </span><span>{
+</span><span>    stages.</span><span style=color:#96b5b4;>run</span><span>(&</span><span style=color:#b48ead;>mut</span><span> world).</span><span style=color:#96b5b4;>unwrap</span><span>();
+</span><span>}
+</span></code></pre><h2 id=full-example>Full Example</h2><p>And that's it for the intro! Here's the full example:<pre class=language-rust data-lang=rust style=background-color:#2b303b;color:#c0c5ce;><code class=language-rust data-lang=rust><span style=color:#b48ead;>use </span><span>bones_ecs::prelude::*;
+</span><span>
+</span><span style=color:#65737e;>// Define our component types.
+</span><span style=color:#65737e;>//
+</span><span style=color:#65737e;>// Each component must be Clone + Sync + Send + TypeUlid.
+</span><span>
+</span><span>#[</span><span style=color:#bf616a;>derive</span><span>(Clone, Debug, TypeUlid)]
+</span><span>#[</span><span style=color:#bf616a;>ulid </span><span>= "</span><span style=color:#a3be8c;>01GNDP2WAAN8C6C8XA5ZBXGHFR</span><span>"]
+</span><span style=color:#b48ead;>pub struct </span><span>Vel {
+</span><span>    </span><span style=color:#bf616a;>x</span><span>: </span><span style=color:#b48ead;>f32</span><span>,
+</span><span>    </span><span style=color:#bf616a;>y</span><span>: </span><span style=color:#b48ead;>f32</span><span>,
+</span><span>}
+</span><span>
+</span><span>#[</span><span style=color:#bf616a;>derive</span><span>(Clone, Debug, TypeUlid)]
+</span><span>#[</span><span style=color:#bf616a;>ulid </span><span>= "</span><span style=color:#a3be8c;>01GNDP34A7TMS8PFZAGSQJ5DDX</span><span>"]
+</span><span style=color:#b48ead;>pub struct </span><span>Pos {
+</span><span>    </span><span style=color:#bf616a;>x</span><span>: </span><span style=color:#b48ead;>f32</span><span>,
+</span><span>    </span><span style=color:#bf616a;>y</span><span>: </span><span style=color:#b48ead;>f32</span><span>,
+</span><span>}
+</span><span>
+</span><span style=color:#b48ead;>fn </span><span style=color:#8fa1b3;>main</span><span>() {
+</span><span>    </span><span style=color:#65737e;>// Initialize an empty world
+</span><span>    </span><span style=color:#b48ead;>let mut</span><span> world = World::new();
+</span><span>
+</span><span>    </span><span style=color:#65737e;>// Run our setup system once to spawn our entities
+</span><span>    world.</span><span style=color:#96b5b4;>run_system</span><span>(setup_system).</span><span style=color:#96b5b4;>ok</span><span>();
+</span><span>
+</span><span>    </span><span style=color:#65737e;>// Create a SystemStages to store the systems that we will run more than once.
+</span><span>    </span><span style=color:#b48ead;>let mut</span><span> stages = SystemStages::with_core_stages();
+</span><span>
+</span><span>    </span><span style=color:#65737e;>// Add our systems to the dispatcher
+</span><span>    stages
+</span><span>        .</span><span style=color:#96b5b4;>add_system_to_stage</span><span>(CoreStage::Update, pos_vel_system)
+</span><span>        .</span><span style=color:#96b5b4;>add_system_to_stage</span><span>(CoreStage::PostUpdate, print_system);
+</span><span>
+</span><span>    </span><span style=color:#65737e;>// Initialize our systems ( must be called once before calling stages.run() )
+</span><span>    stages.</span><span style=color:#96b5b4;>initialize_systems</span><span>(&</span><span style=color:#b48ead;>mut</span><span> world);
+</span><span>
+</span><span>    </span><span style=color:#65737e;>// Run our game loop for 10 frames
+</span><span>    </span><span style=color:#b48ead;>for </span><span>_ in </span><span style=color:#d08770;>0</span><span>..</span><span style=color:#d08770;>10 </span><span>{
+</span><span>        stages.</span><span style=color:#96b5b4;>run</span><span>(&</span><span style=color:#b48ead;>mut</span><span> world).</span><span style=color:#96b5b4;>unwrap</span><span>();
+</span><span>    }
+</span><span>}
+</span><span>
+</span><span style=color:#65737e;>/// Setup system that spawns two entities with a Pos and a Vel component.
+</span><span style=color:#b48ead;>fn </span><span style=color:#8fa1b3;>setup_system</span><span>(
+</span><span>    </span><span style=color:#b48ead;>mut </span><span style=color:#bf616a;>entities</span><span>: ResMut&LTEntities>,
+</span><span>    </span><span style=color:#b48ead;>mut </span><span style=color:#bf616a;>positions</span><span>: CompMut&LTPos>,
+</span><span>    </span><span style=color:#b48ead;>mut </span><span style=color:#bf616a;>velocities</span><span>: CompMut&LTVel>,
+</span><span>) {
+</span><span>    </span><span style=color:#b48ead;>let</span><span> ent1 = entities.</span><span style=color:#96b5b4;>create</span><span>();
+</span><span>    positions.</span><span style=color:#96b5b4;>insert</span><span>(ent1, Pos { x: </span><span style=color:#d08770;>0.</span><span>, y: </span><span style=color:#d08770;>0. </span><span>});
+</span><span>    velocities.</span><span style=color:#96b5b4;>insert</span><span>(ent1, Vel { x: </span><span style=color:#d08770;>3.0</span><span>, y: </span><span style=color:#d08770;>1.0 </span><span>});
+</span><span>
+</span><span>    </span><span style=color:#b48ead;>let</span><span> ent2 = entities.</span><span style=color:#96b5b4;>create</span><span>();
+</span><span>    positions.</span><span style=color:#96b5b4;>insert</span><span>(ent2, Pos { x: </span><span style=color:#d08770;>0.</span><span>, y: </span><span style=color:#d08770;>100. </span><span>});
+</span><span>    velocities.</span><span style=color:#96b5b4;>insert</span><span>(ent2, Vel { x: </span><span style=color:#d08770;>0.0</span><span>, y: -</span><span style=color:#d08770;>1.0 </span><span>});
+</span><span>}
+</span><span>
+</span><span style=color:#65737e;>/// Update the Pos of all entities with both a Pos and a Vel
+</span><span style=color:#b48ead;>fn </span><span style=color:#8fa1b3;>pos_vel_system</span><span>(</span><span style=color:#bf616a;>entities</span><span>: Res&LTEntities>, </span><span style=color:#b48ead;>mut </span><span style=color:#bf616a;>pos</span><span>: CompMut&LTPos>, </span><span style=color:#bf616a;>vel</span><span>: Comp&LTVel>) {
+</span><span>    </span><span style=color:#b48ead;>for </span><span>(_, (pos, vel)) in entities.</span><span style=color:#96b5b4;>iter_with</span><span>((&</span><span style=color:#b48ead;>mut</span><span> pos, &vel)) {
+</span><span>        pos.x += vel.x;
+</span><span>        pos.y += vel.y;
+</span><span>    }
+</span><span>}
+</span><span>
+</span><span style=color:#65737e;>/// Print the Pos and Vel of every entity
+</span><span style=color:#b48ead;>fn </span><span style=color:#8fa1b3;>print_system</span><span>(</span><span style=color:#bf616a;>pos</span><span>: Comp&LTPos>, </span><span style=color:#bf616a;>vel</span><span>: Comp&LTVel>, </span><span style=color:#bf616a;>entities</span><span>: Res&LTEntities>) {
+</span><span>    println!("</span><span style=color:#a3be8c;>=====</span><span>");
+</span><span>
+</span><span>    </span><span style=color:#b48ead;>for </span><span>(entity, (pos, vel)) in entities.</span><span style=color:#96b5b4;>iter_with</span><span>((&pos, &vel)) {
+</span><span>        println!("</span><span style=color:#d08770;>{entity:?}</span><span style=color:#a3be8c;>: </span><span style=color:#d08770;>{pos:?}</span><span style=color:#a3be8c;> - </span><span style=color:#d08770;>{vel:?}</span><span>");
+</span><span>    }
+</span><span>}
+</span><span>
+</span></code></pre><p class=edit-page><a href=https://github.com/fishfolk/website/blob/main/content/bones/ecs_tutorial/the-basics.md><svg class="feather feather-edit-2" viewbox="0 0 24 24" fill=none height=16 stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2 width=16 xmlns=http://www.w3.org/2000/svg><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg>Edit this page on GitHub</a><div class="docs-navigation d-flex justify-content-between"><a href=/bones/overview/introduction/> <div class="card my-1"><div class="card-body py-2">← Introduction</div></div> </a><a class=ms-auto href=/bones/development/api-documentation/> <div class="card my-1"><div class="card-body py-2">API Documentation →</div></div> </a></div></main></div></div></div><footer class="footer text-muted"><div class=container><div class=row><div class="col-lg-8 order-last order-lg-first"><ul class=list-inline><li class=list-inline-item>Powered by <a href=https://www.getzola.org/>Zola</a>, and <a href=https://github.com/aaranxu/adidoks>AdiDoks</a></ul></div><div class="col-lg-8 order-first order-lg-last text-lg-end"><ul class=list-inline><li class=list-inline-item><a href=/code-of-conduct/>Code of Conduct</a></ul></div></div></div></footer><script defer src=/js/main.js></script><script defer src=/plugins/elasticlunr.min.js></script><script defer src=/search_index.en.js></script><script defer src=/js/search.js></script>

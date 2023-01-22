@@ -20,6 +20,27 @@
         <lastmod>2022-02-22</lastmod>
     </url>
     <url>
+        <loc>/bones/</loc>
+    </url>
+    <url>
+        <loc>/bones/development/</loc>
+    </url>
+    <url>
+        <loc>/bones/development/api-documentation/</loc>
+    </url>
+    <url>
+        <loc>/bones/ecs_tutorial/</loc>
+    </url>
+    <url>
+        <loc>/bones/ecs_tutorial/the-basics/</loc>
+    </url>
+    <url>
+        <loc>/bones/overview/</loc>
+    </url>
+    <url>
+        <loc>/bones/overview/introduction/</loc>
+    </url>
+    <url>
         <loc>/code-of-conduct/</loc>
     </url>
     <url>
